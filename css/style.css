@@ -1,0 +1,687 @@
+
+* a:link, a:visited {text-decoration:none;}
+
+  * {font-family: 'Sen', sans-serif;}
+
+
+/*formateo texo*/
+h3{background-color: DodgerBlue;}
+
+
+/*cabecera*/
+
+header{
+  height: 150px;
+  width: 100%;
+  background: white;
+  text-align: center;
+  font-size: 29px;
+  /*Bonilla*/
+  margin-top:2%;
+}
+/*setion informacion*/
+#informacion{
+  width: 80%;
+  height: auto;
+  float: right;
+  background:white;
+}
+/*tablon*/
+aside{
+  width: 20%;
+  height:600px;
+  /*background:red;*/
+  float: left;
+  display : flex;
+}
+/*pie*/
+footer{
+  clear: both;
+  width: 100%;
+  background:#5B5554;
+}
+footer h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
+/*menu*/
+.navegador{
+  width: 100%
+}
+ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F5F0EF;
+  
+}
+li {
+  float: left;
+  width: 16.6%
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 42px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #E5E2E2 ;
+  box-shadow:1px -5px 15px 3px rgb(226, 196, 196) inset;
+}
+/*menudos*/
+.menudos {
+  float:left;
+  width:83%;
+  margin-top: 57px;
+  text-align:center;
+}
+.menudos a {
+  background-color:#e5e5e5;
+  padding:17px;
+  margin-top:8px;
+  display:block;
+  width:100%;
+  color:black;
+}
+/*contenido-section*/
+.contenido {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.contenido > div {
+  background-color: #f1f1f1;
+  width: 50%;
+  margin: 40px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 15px;
+}
+/*imagenes*/
+img{
+float: right;
+width: 10%;
+vertical-align: middle;
+}
+
+#tori{
+  float: left;
+  width: 15%;
+  vertical-align: middle;
+}
+/*hero-image*/
+.hero-image {
+  background-image: url("../img/hero.jpg");
+  height: 598px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-image-tafad {
+  background-image: url("../img/tafad.jpg");
+  height: 598px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+/*galeria profesores tafad*/
+div.glareia2 {
+  border: 1px solid #ccc;
+}
+
+div.galeria2:hover {
+  border: 1px solid #777;
+}
+div.galeria2 img {
+  width: 100%;
+  height: auto;
+}
+div.descripcion {
+  padding: 15px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.contenedor-galeria {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+  .contenedor-galeria {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contenedor-galeria {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*tabla*/
+#tabla-tafad {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tabla-tafad td, #tabla-tafad th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tabla-tafad tr:nth-child(even){background-color: #f2f2f2;}
+
+#tabla-tafad tr:hover {background-color: #ddd;}
+
+#tabla-tafad th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: DodgerBlue;
+  color: white;
+  font-size: 20px;
+}
+/*Bonilla-----------------------------------------------------------------------------------*/
+
+/*footer-------------------------------------------------------------------------------------*/
+
+.pie {color:#E5E2E2;
+  display:flex;
+  justify-content: space-evenly;
+  align-items:center;
+  padding-top: 15px;
+  padding-bottom:15px;
+  background:#5B5554;}
+
+.pie p {font-family:Arial, Helvetica, sans-serif;
+        font-size:20px;}
+
+
+.contimagen {display: contents;}
+
+  
+.contimagen img{ width:10%;
+              height:auto;}
+
+.pie a[href^="mailto:"] {font-size: 25px;}
+
+.pie a:link, a:visited {text-decoration:none;
+                        color:inherit}
+
+.redessociales i{ font-size:20px;
+              margin-left:15px;}
+
+.redessociales a:link, a:visited {  text-decoration: none;
+                                    color:inherit;}
+
+.redessociales a:hover, .pie a:hover {color:rgb(241, 142, 158)}
+
+/*Formateo de galeria----------------------------------------------------------------------------*/
+
+
+#informacion h1 {margin:30px 40% 30px 40%}
+
+.contenedores { width:60%;
+                display:block;
+                margin:0 auto 20px;}
+
+.contenedorsuperior, .contenedorinferior {  display:flex;
+                                            justify-content:space-between;
+                                            }
+
+.tarjeta {  position:relative;
+            overflow:hidden;
+            margin:5px;
+            width:100%;
+            border:1px solid black;}
+
+.tarjeta img {  width:100%;
+                height:100%;}
+
+.textos {   position:absolute;
+            bottom: 0;
+            color:black;
+            text-align: center;
+            background-color: rgba(255,255,255,0.7);
+            padding:5px;
+            transform: translateY(71%);
+            height:280px}
+
+
+.textos p {text-align:justify}
+
+.tarjeta:hover .textos {transform: translateY(12%)}
+
+.tarjeta:hover img {filter:blur(4px)}
+
+/*Formateo contenido discripción cursos---------------------------------*/
+
+.cursos-japones {   margin: 30px auto 20px auto }
+
+.asignatura {margin-bottom:50px;}
+
+.cursos-japones h3 {color:white;
+                    text-align:center;}
+
+.contenido-curso {  background-color:#f1f1f1;
+                    border:1px solid black;
+                    padding:2% 2% 10%;
+                    font-size:20px;}
+
+.contenido-curso p {margin-bottom:50px;}
+
+.contenido-curso a {display:inline-block;
+                    color:red;
+                    margin:10% 45% 0px;
+                    text-decoration: none;
+                    border:1px solid blue;
+                    padding:8px 16px;
+                    background-color:rgb(220, 223, 252)}
+
+.leermas a:link, .leermas a:visited {   color:blue;
+                                        text-decoration: underline;}
+
+/*Estilos para FORMULARIO-----------------------------------------------------------------------------------*/
+h1 {    margin-top:40px;
+  margin-bottom:45px;
+  text-align:center;}
+
+.formulario {   margin:0px auto;
+                background-image: url(../img/sakura-ramas.jpg);
+                background-size: 35%;
+                background-repeat: no-repeat;
+                background-position: top right;
+                font-size:20px;
+                padding-left:10%}
+
+fieldset {  border:none;}
+
+legend {    font-size:15px;
+            color:black;
+            margin-bottom:20px;}
+
+input {           margin-bottom: 15px;
+                  height:30px;
+                  border:1px solid black;
+                  border-radius:8px;
+                  font-size:18px;
+                  padding-left:1%;}
+
+.contenedor1 {  margin-bottom:20px;}
+
+.contenedor1 label {    display:block;
+                        margin-bottom:5px;}
+
+.contenedor1 input {    width:80%;}
+
+.contenedores2y3, .contenedores4y5 {    width: 100%;
+                                        display:flex;
+                                        margin-bottom:60px;}
+
+.contenedores2y3 input {    width:78%;}
+
+.contenedores2y3 label {    display:block;
+                            margin-bottom:5px;}
+
+.contenedor2   {    width:50.5%;
+                    margin-right:-9%}
+
+.contenedor3 {  width:50%;
+                float:right;}
+
+.contenedores4y5 label, span {  display:block;
+                                margin-bottom:15px;}
+
+.contenedores4y5 {margin-bottom:20px}
+
+.contenedor4 {  width:20%;
+                padding-left:2%}
+
+.contenedor4 select {   font-size: large;
+                        width:100%;
+                        border-radius:8px;}
+
+.contenedor5 { width:58%}
+
+.contenedor5 span {text-align:center;}
+
+.contenedor5 textarea { width:90%;
+                        resize:none;
+                        margin-left:10%;
+                        margin-right:5%;
+                        border-radius: 8px;
+                        padding:1% 0% 0% 1%;}
+
+input[type="checkbox"] {    width:15px;
+                            height:15px;
+                            margin-right:1%;}
+
+p { display:inline;
+    font-size:15px;}
+
+.botones input {    border:1px solid rgb(6, 44, 148);
+                    background-color: rgb(0, 168, 255);
+                    width:20%;
+                    height:45px;
+                    font-size:25px;
+                    color: white;}
+
+.botones input[type="submit"]:hover, [type="reset"]:hover {     cursor: pointer;
+                                                                background-color: rgb(23, 137, 194);
+                                                                border:1px solid rgb(113, 202, 247);
+                                                                box-shadow:1px 2px rgb(9, 88, 128);
+                                                                text-decoration: underline rgb(174, 211, 230);}
+
+.botones {  margin-right:20%;
+            margin-top:20px;
+            margin-left:-5%;
+            display:flex;
+            justify-content: space-evenly;}
+
+.fa.fa-circle {   color:rgb(241, 142, 158);
+                        font-size:8px;
+                        margin-right:4px;
+                        vertical-align: middle;}
+                                                 
+/*Estilos Examenes NOKEN-----------------------------------*/
+
+.examenesnoken {display:flex;
+  flex-direction:column;}
+
+
+
+#informacion .examenesnoken h1 {margin:60px 0px;}
+
+#informacion .examenesnoken h1 img {    float:left;
+                                        width:20%;
+                                        margin:0px 0px 0px 47px}
+
+.examenesnoken h2 {     background-color: dodgerblue;
+                        color:white;
+                        padding-left:10px;}
+/*Estilos tabla de examenes-----------------------------------*/
+
+.cuadro-examenes {border:1px solid black;
+  text-align: center;
+  border-collapse:collapse;}
+
+.cuadro-examenes td,th {border:1px solid black;
+          padding:15px;}
+
+.cuadro-examenes th {background-color:rgb(181, 212, 243);}
+
+.cuadro-examenes td:first-child,tr:hover {background-color:rgb(174, 240, 215);}
+
+/*Estilo lista AVISOS--------------------------------------------------------------------*/
+
+.avisos-examen {float: none;}
+
+.avisos-examen li {     width:100%;
+          margin-bottom:10px;}
+
+
+
+/*Estilo textos div noken-----------------------------------------------------------------*/
+
+.examenesnoken div {    text-align: justify;
+                        line-height: 25px;
+                        padding:0 50px;}
+
+
+.descripcion-examen img { width:40%;
+                          float:left}
+
+.descripcion-examen span {font-size:large;
+                          color:red;}
+
+.descripcion-examen i {text-transform: capitalize;}
+
+
+.examen u {     text-transform: uppercase;
+                color:red;}
+
+.arriba-noken {display:block;
+              width:25%;
+              height: auto;
+              text-align:center;
+              margin:10% auto;
+              color:black;
+              border:1px solid black;
+              padding:2%}
+
+
+/*version PC-------------------------------*/
+@media only screen and (min-width: 769px){
+
+#navegador {display:none; }
+
+#cabecera-responsive {display:none;}
+
+#tabla-noken-responsive {display:none;}
+
+.logo-oficial-jlpt {display:none;}
+
+
+}
+
+/*movil y tablet------------------------------------*/
+@media only screen and (max-width:768px){
+
+  * {font-family: Arial, Helvetica, sans-serif;}
+
+  body {margin:0;
+        padding:0;
+      background-color: #5D5454;}
+
+  .cabecera {display:none;}
+
+  header{
+    height: 150px;
+    width: 100%;
+    background: #5D5454;
+    text-align: center;
+    font-size: 29px;
+    /*Bonilla*/
+    margin-top:2%;
+    color:white;}
+
+    #cabecera-responsive img {  float:left;
+                                width:33%;
+                                padding:0 2%;}
+    
+    #cabecera-responsive h2 { padding-top: 20px;;}
+
+  .navegador {display: none;}
+  .hero-image {display: none;}
+  .hero-image-tafad{display: none;}
+  .cabecera h1 img {display:none;}
+  
+  .contenedorsuperior, .contenedorinferior {display:flex;
+                                            flex-direction: column;}
+                                            
+
+#informacion{
+  width: 100%;
+  height: auto;
+  margin-left:auto;;
+  background:white;}
+
+ /*.cursos-japones {   margin: 30px 0 20px}*/
+
+ aside.NOTICIAS {display:none;}
+
+  
+  /*menu movil-----------------------------------*/
+
+  #navegador{width:100%;}
+
+  ul.lista-nav {
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    float:right;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    clear: both;
+    height: 0;}
+  
+  li {width:100%;
+  background-color: rgb(99, 96, 95);}
+  
+.lista-nav li a {
+    display: block;
+    color: #F5F0EF;
+    /*text-align: center;*/
+    /*padding: 14px 42px;*/
+    text-decoration: none;
+    width:auto;
+  border:1px solid black;}
+li a:hover {
+    background-color: #E5E2E2 ;
+    box-shadow:1px -5px 15px 3px rgb(226, 196, 196) inset;
+  color:#5B5554;}
+
+  /*botones*/
+  .botones-abrir-cerrar {/*display: block;*/
+                          float: right;
+                        height:auto;}
+.botones-abrir-cerrar.a.img {
+    width:10%;
+    height:auto;}
+
+.botones-abrir-cerrar .cerrar {
+       display: none;}
+
+.botones-abrir-cerrar .abrir {display: block;}
+
+.botones-abrir-cerrar span {
+                            text-decoration: none;
+                            color:white;
+                            float:right;
+                            margin-top: 4%;
+                            font-size: 35px;
+                            }
+
+
+
+#barra-nav:target ul.lista-nav {height: auto;}
+
+.cerrar { 
+    display:none;}
+
+    #barra-nav:target .abrir {
+        display: none;}
+
+  #barra-nav:target .cerrar {
+    display: block;}
+
+  .contenido {  display:flex;
+                flex-direction: column;
+                width:100%;
+                margin:0;}
+
+  .contenido div {width:90%;
+                  margin-bottom: 5%;}
+
+  .contenido-curso a {display:inline-block;
+                      margin-left:45%;
+                      margin-top:10%}
+
+  
+.contimagen {display:none;}
+
+
+ .pie {display:flex;
+       flex-direction: column-reverse;
+      font-size: 30px;} 
+
+.redessociales {margin-bottom:5%;}
+
+.redessociales i{font-size:40px;
+                  margin-right:8px}
+
+/*FORMULARIO responsive------------------------------------------------------------*/
+
+fieldset {padding-left: 0%;}
+
+.contenedor1 input {width:95%}
+
+.contenedores2y3 {flex-direction: column;}
+
+.contenedor2, .contenedor3 {width:100%;}
+
+.contenedor2 input, .contenedor3 input {width:95%}
+
+.contenedores4y5 {flex-direction: column;}
+
+.contenedor4 {width:95%;
+              font-size:x-large;}
+
+.contenedor5 textarea { width:150%;
+                        margin-left: 0%;
+                        margin-right: 0%;}
+
+
+.botones {flex-direction:column;}
+
+.botones input {width:115%}
+
+/*Tabla de NOKEN Responsive-------------------------*/
+
+.examenesnoken h1 img {display:none}
+
+.cuadro-examenes {display:none;}
+
+#tabla-noken-responsive * { list-style:none;
+                            cursor: pointer;
+                            text-align:center;}
+
+#tabla-noken-responsive li{ line-height:200%;
+                            background-color: inherit;}
+
+
+#tabla-noken-responsive input[name="list"] {position: absolute;
+                                            left: -1000em;
+                                            padding-bottom: 10px;}
+
+
+#tabla-noken-responsive label {width:100%;
+                                display:block;
+                                background-color:rgb(174, 240, 215);}
+
+#tabla-noken-responsive label:before{  margin-right:4px;}
+
+#tabla-noken-responsive .lista-anidada{display: none;}
+
+#tabla-noken-responsive input:checked ~ ul{display:block;}
+
+.examenesnoken h2 {text-align:center;}
+
+.parasol {display:none;}
+
+.logo-oficial-jlpt {margin-right:10px;}
+
+.avisos-examen li {background-color: inherit;}
+
+}
+  /*-------------------------------------*/
